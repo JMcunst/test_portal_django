@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'postgres',  # DB 이름
         'USER': 'postgres',  # 사용자 이름
         'PASSWORD': '1q2w3e4r',
-        'HOST': '127.0.0.1',
+        'HOST': '10.0.140.203',
         'PORT': '5432'
     },
     'sqlite3': {
