@@ -13,6 +13,7 @@ def access_test(request):
 
     msg = 'TEST ACCESS API'
     res_data['message'] = msg
+    print('access_test')
 
     return Response(data=res_data, status=status.HTTP_200_OK)
 
